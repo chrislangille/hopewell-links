@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>chrislangille - home</title>
+    <title>Hopewell Links - Home</title>
     <link rel="stylesheet" href="build/css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
@@ -12,32 +12,32 @@
   </head>
 
   <body
-    class="flex flex-col min-h-screen bg-gradient-to-t from-green-950 to-green-400"
+    class="flex flex-col min-h-screen no-scrollbar w-screen bg-gradient-to-t from-green-950 to-gray-800"
   >
     <!-- Header -->
     <header>
       <!-- Navbar -->
-      <nav class="flex justify-center bg-green-950 shadow-lg m-0">
+      <nav class="flex justify-center bg-black shadow-lg mt-0">
         <ul class="text-white font-semibold flex p-2">
           <li>
             <a
               class="nav-text p-2 ml-2 mr-2 hover:text-gray-300 border-b-2"
               href="index.html"
-              >home</a
+              >Home</a
             >
           </li>
           <li>
             <a
               class="nav-text p-2 ml-2 mr-2 hover:text-gray-300"
               href="index.html"
-              >course information</course></a
+              >Info</a
             >
           </li>
           <li>
             <a
               class="nav-text p-2 ml-2 mr-2 hover:text-gray-300"
               href="index.html"
-              >photo gallery</a
+              >Gallery</a
             >
           </li>
         </ul>
@@ -45,22 +45,29 @@
     </header>
 
     <!-- Main content -->
-    <main class="flex justify-center md:mt-1.5 lg:mt-40">
-      <div class="grid grid-rows-auto justify-center m-5">
-        <div>
-          <h2 class="text-center text-gray-400 text-7xl font-semibold m-5">
-            <b class="text-white">Hopewell Links</b>
-          </h2>
-          <h3 class="text-center text-white text-xl font-semibold m-5">
-            Placeholder <b>text</b>
+    <main
+      class="justify-center min-h-screen bg-cover bg-center"
+      style="background-image: url(Images/course-photos/general-course.jpg)"
+    >
+      <!-- Button and Title -->
+      <div class="mt-40">
+        <h2
+          class="text-center text-gray-400 text-7xl font-semibold m-2 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
+        >
+          <b class="text-white">Hopewell Links</b>
+        </h2>
+
+        <div class="flex flex-row justify-center">
+          <h3
+            class="text-center text-gray-100 text-2xl font-semibold m-5 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
+          >
+            2349 Elgin Rd, Hopewell, NS
           </h3>
         </div>
 
-        <div>
-          <img class="blur-sm m-0" src="Images/course-photos/hole-eight2.png" />
-        </div>
-
-        <div class="flex justify-center mt-4">
+        <div
+          class="flex justify-center drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]"
+        >
           <a
             href="https://www.facebook.com/profile.php?id=100063530324674"
             target="_blank"
@@ -73,11 +80,11 @@
     </main>
 
     <!-- Footer -->
-    <footer class="text-white p-2 mt-auto">
+    <footer class="text-white p-2 mt-auto bg-black">
       <div class="grid grid-rows-2 mb-2">
         <div class="flex justify-center">
           <p class="text-gray-400">
-            &copy 2024 Hopewell Links. All rights reserved.
+            &copy Hopewell Links. All Rights Reserved.
           </p>
         </div>
 
@@ -88,6 +95,14 @@
             target="_blank"
           >
             <img src="Images/icons/facebook_icon.png" width="32" height="32"
+          /></a>
+
+          <a
+            class="ml-2 mr-2"
+            href="https://github.com/chrislangille"
+            target="_blank"
+          >
+            <img src="Images/icons/github_icon.png" width="32" height="32"
           /></a>
         </div>
       </div>
